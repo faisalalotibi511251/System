@@ -2277,6 +2277,8 @@ var fkk =[
         {n:"فكك سبرايز",m:"س ب ر ا ي ز"},
         {n:"فكك ولي على أمتك",m:"و ل ي ع ل ى أ م ت ك"},
         {n:"فكك الو محد",m:"ا ل و م ح م د"},
+        {n:"فكك ديزل",m:"د ي ز ل"},
+        {n:"فكك الاسطوره",m:"ا ل ا س ط و ر ه"},
 
 
    ];
@@ -2723,7 +2725,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: click here `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=471464656242737183&permissions=2080898225&scope=bot`)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=513109012024131606&permissions=0&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
